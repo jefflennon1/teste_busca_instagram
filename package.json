@@ -4,9 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@types/puppeteer": "^5.4.2",
     "puppeteer": "^5.5.0"
   },
   "scripts": {
     "start": "node index.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
   }
 }
